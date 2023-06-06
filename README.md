@@ -20,5 +20,5 @@
 
   ![Coding and MultiTasking](https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
-<div style ="text-aling: center;">Happy learning</div>
+<div style ="text-aling: center">Happy learning</div>
 
