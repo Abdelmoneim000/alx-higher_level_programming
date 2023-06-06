@@ -20,4 +20,8 @@
 
   ![Coding and MultiTasking](https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
-<center><bold>Happy learning!</bold></center>
+<center>
+<bold>
+Happy learning!
+</bold>
+</center>
