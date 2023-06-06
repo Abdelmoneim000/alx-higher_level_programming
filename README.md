@@ -4,7 +4,7 @@
 
   ## Welcome to Python!!
 
-  ### Up until now we have learnt the the following core concepts of Python :
+  ### Up until now we have learnt the following core concepts of Python :
 
     1. Python interpreter.
     2. Print function and how to use it.
