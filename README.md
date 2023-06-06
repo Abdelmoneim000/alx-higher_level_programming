@@ -18,10 +18,8 @@
     4. Autopep8 flags and usage
 -------
 
+  <p align="center">
   ![Coding and MultiTasking](https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+  </p>
 
-<center>
-<bold>
-Happy learning!
-</bold>
-</center>
+
