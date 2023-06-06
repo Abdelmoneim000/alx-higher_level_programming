@@ -14,11 +14,11 @@
   ### Special knowledge achieved for Abdel-Moneim :
     1. flake8 and how to use it.
     2. how to configure flake8 to work with Python interpreter.
-    3. Autopep8 with Python as a linter to format text
-    4. Autopep8 flags and usage
+    3. Autopep8 with Python as a linter to format text.
+    4. Autopep8 flags and usage.
 -------
 
   ![Coding and MultiTasking](https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
-<div style ="text-aling: center;">Happy learning</div>
+<div style ="text-align: center;">Happy learning</div>
 
