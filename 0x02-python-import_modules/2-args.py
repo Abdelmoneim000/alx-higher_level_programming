@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-if __name__ == "__main__" :
+if __name__ == "__main__":
     from sys import argv
-    leng = len(argv) -1
-    
+    leng = len(argv) - 1
+
     numb = 1
-    
+
     if leng == 0:
         print("{0} arguments.".format(leng))
     elif leng == 1:
