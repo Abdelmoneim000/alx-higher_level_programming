@@ -10,6 +10,8 @@
     2. Print function and how to use it.
     3. Formating and indexing.
     4. Loops and conditions.
+    5. Modules in python.
+    6. Taking arguments from command line.
 
   ### Special knowledge achieved for Abdel-Moneim :
     1. flake8 and how to use it.
