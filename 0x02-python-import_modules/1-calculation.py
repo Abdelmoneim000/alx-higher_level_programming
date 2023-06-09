@@ -8,5 +8,5 @@ a = 10
 b = 5
 
 for i in my_func:
-    print("{0} {1} {2}= {3} ".format(a, operator[index], b, i(a, b)))
+    print("{0} {1} {2} = {3}".format(a, operator[index], b, i(a, b)))
     index += 1
