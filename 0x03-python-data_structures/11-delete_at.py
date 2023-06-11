@@ -1,13 +1,7 @@
 #!/usr/bin/python3
 def delete_at(my_list=[], idx=0):
-    if idx > len(my_list) - 1 or idx < 0:
+    if idx < 0 or idx > len(my_list) - 1:
         return my_list
     else:
-        list_new = []
-        for i in range(len(my_list)):
-            if i == idx:
-                continue
-            else:
-                list_new.append(my_list[i])
-        my_list = list(list_new)
-        return my_list
+        del my_list[idx]
+    return my_list
