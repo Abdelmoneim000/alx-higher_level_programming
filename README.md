@@ -12,6 +12,7 @@
     4. Loops and conditions.
     5. Modules in python.
     6. Taking arguments from command line.
+    7. Tuples and Lists.
 
   ### Special knowledge achieved for Abdel-Moneim :
     1. flake8 and how to use it.
