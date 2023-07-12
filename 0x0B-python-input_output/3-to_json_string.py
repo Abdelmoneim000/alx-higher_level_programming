@@ -1,11 +1,11 @@
 #!/usr/bin/python3
+"""
+contain the JSON string
+"""
+
 import json
-"""A module to represent an object as json notation"""
 
 
 def to_json_string(my_obj):
-    """
-    A function that takes an object as a string
-    and returns the fvalue of serializing that object
-    """
+    """returns the JSON representation of an object (string)"""
     return json.dumps(my_obj)

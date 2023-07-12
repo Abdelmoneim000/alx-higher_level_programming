@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-import json
+"""
+contains the json str function
+"""
 
-"""
-A module that converts json to string format
-"""
+import json
 
 
 def from_json_string(my_str):
-    """
-    A function that decode a json string into
-    it's original type
-    """
+    """returns an object represented by a JSON string"""
     return json.loads(my_str)
