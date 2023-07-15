@@ -104,10 +104,10 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         if args:
-            attributes = ["id", "_Rectangle__width", "_Rectangle__height", "_Rectangle__x", "_Rectangle__y"]
+            attributes = ["id", "_Rectangle__width",
+                          "_Rectangle__height", "_Rectangle__x", "_Rectangle__y"]
             for i in range(min(len(args), len(attributes))):
                 setattr(self, attributes[i], args[i])
         if kwargs:
             for key, value in kwargs.items():
                 setattr(self, key, value)
-                
