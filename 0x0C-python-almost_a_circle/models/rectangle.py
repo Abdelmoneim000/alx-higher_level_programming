@@ -102,25 +102,12 @@ class Rectangle(Base):
     def __str__(self):
         return "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(self.id, self.__x, self.__y, self.__width, self.__height)
 
-    def update(self, *args):
-        lenn = len(args) - 1
-        if (lenn == 4):
-            self.id = args[0]
-            self.__width = args[1]
-            self.__height = args[2]
-            self.__x = args[3]
-            self.__y = args[4]
-        elif (lenn == 3):
-            self.id = args[0]
-            self.__width = args[1]
-            self.__height = args[2]
-            self.__x = args[3]
-        elif (lenn == 2):
-            self.id = args[0]
-            self.__width = args[1]
-            self.__height = args[2]
-        elif (lenn == 1):
-            self.id = args[0]
-            self.__width = args[1]
-        elif (lenn == 0):
-            self.id = args[0]
+    def update(self, *args, **kwargs):
+        if args:
+            attributes = ["id", "_Rectangle__width", "_Rectangle__height", "_Rectangle__x", "_Rectangle__y"]
+            for i in range(min(len(args), len(attributes))):
+                setattr(self, attributes[i], args[i])
+        if kwargs:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
+                
