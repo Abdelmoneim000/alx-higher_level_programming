@@ -103,6 +103,11 @@ class Rectangle(Base):
         return "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(self.id, self.__x, self.__y, self.__width, self.__height)
 
     def update(self, *args, **kwargs):
+        """
+        A function that updates the attributes
+        of the rectangle depending on how
+        many parameters given.
+        """
         if args:
             attributes = ["id", "_Rectangle__width",
                           "_Rectangle__height", "_Rectangle__x", "_Rectangle__y"]
@@ -112,12 +117,12 @@ class Rectangle(Base):
             for key, value in kwargs.items():
                 setattr(self, key, value)
 
-        def to_dictionary(self):
-            """Return the dictionary representation of a Rectangle."""
-            return {
-                "id": self.id,
-                "width": self.width,
-                "height": self.height,
-                "x": self.x,
-                "y": self.y
-            }
+    def to_dictionary(self):
+        """Return the dictionary representation of a Rectangle."""
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
