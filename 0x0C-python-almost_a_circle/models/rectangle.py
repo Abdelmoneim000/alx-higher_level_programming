@@ -33,6 +33,10 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, value):
+        """
+        A setter function for the width
+        attribute
+        """
         if type(value) != int:
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -59,6 +63,10 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
+        """
+        A setter function for the x
+        attribute.
+        """
         if type(value) != int:
             raise TypeError("x must be an integer")
         if value < 0:
@@ -72,6 +80,9 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, value):
+        """
+        A setter function for the y attribute
+        """
         if type(value) != int:
             raise TypeError("y must be an integer")
         if value < 0:
