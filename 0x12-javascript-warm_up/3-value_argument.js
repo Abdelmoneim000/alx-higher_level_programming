@@ -1,3 +1,4 @@
 #!/usr/bin/node
 const pro = require("process");
-pro.argv.length < 2 ? console.log("No argument") : console.log(pro.argv[2]);
+const first = pro.argv[1];
+first ? console.log(first) : console.log("No argument");
