@@ -1,0 +1,3 @@
+-- A SQL script that lists names and scores from second_table
+-- where score must be higher than or equal to 10...
+SELECT `score`, `name` FROM `second_table` WHERE `score`>=10 ORDER BY `score` DESC;
