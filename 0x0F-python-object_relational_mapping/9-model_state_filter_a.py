@@ -18,10 +18,10 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    state = session.query(State).filter(State.name.like('%a%')).order_by(State.id)
+    state = session.query(State)
+    fil = state.filter(State.name.like('%a%')).order_by(State.id)
 
-    for i in state:
+    for i in fil:
         print("{}: {}".format(i.id, i.name))
-
 
     session.close()
