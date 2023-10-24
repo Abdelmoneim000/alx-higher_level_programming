@@ -7,9 +7,7 @@ const url = argv[2];
 
 // Send a GET request to the API
 request.get(url, (err, response) => {
-  if (err) {
-    console.error(err);
-  } else {
+  if (!err) {
     const films = JSON.parse(response.body).results;
     let count = 0;
 
