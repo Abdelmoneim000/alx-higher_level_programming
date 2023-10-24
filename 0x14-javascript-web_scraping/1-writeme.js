@@ -1,4 +1,9 @@
-#!/home/abod/.nvm/versions/node/v18.17.1/bin/node
+#!/usr/bin/node
 const fs = require('fs');
 const { argv } = require('process');
-fs.writeFile(argv[1], argv[2]);
+
+fs.writeFile(argv[2], argv[3], (err) => {
+  if (err) {
+    console.log(`An error Occured:-\n ${err.message}`);
+  }
+});
