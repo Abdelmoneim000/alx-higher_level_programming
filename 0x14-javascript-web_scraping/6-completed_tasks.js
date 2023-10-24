@@ -22,5 +22,5 @@ request.get(url, (err, response) => {
       }
     }
   }
+  console.log(obj);
 });
-console.log(obj);
