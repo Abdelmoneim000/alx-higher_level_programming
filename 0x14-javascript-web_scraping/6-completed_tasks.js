@@ -15,8 +15,10 @@ request.get(url, (err, response) => {
     const bod = JSON.parse(response.body);
     for (const i of bod) {
       if (i.completed === true) {
-        const userId = i.userId.toString(); // Convert userId to a string
-        obj[userId] = (obj[userId] || 0) + 1; // Initialize to 0 if undefined, then increment
+        // Convert userId to a string
+        const userId = i.userId.toString();
+        // Initialize to 0 if undefined, then increment
+        obj[userId] = (obj[userId] || 0) + 1;
       }
     }
   }
